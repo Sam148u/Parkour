@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+/* Estilos para el encabezado con imagen de fondo fija */
+header {
+    position: relative;
+    height: 100vh; /* Tamaño de la ventana visible */
+    background-image: url('../images/20131225-135724.jpg');
+    background-size: cover;
+    background-attachment: fixed; /* Fija la imagen al desplazarse */
+    color: #f00000;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.Prk-container {
+    max-width: 1000px;
+    margin: auto;
+    background-color: #38e67a;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.acontecim {
+    position: relative;
+    height: 80vh;
+    background-image: url('../images/PARKOUR3.jpg');
+    background-attachment: fixed;
+    background-color: #FFF7FC;
+    padding: 10px;
+    border-radius: 5px;
+    background-size: cover;
+}
+
+/* Estilos para las secciones de contenido */
+.about, .benefits, .acontecim {
+    padding: 40px;
+}
+
+.about h2, .benefits h2, .acontecim h2 {
+    font-size: 1.8rem;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #ff0000;
+    padding: 10px;
+}
